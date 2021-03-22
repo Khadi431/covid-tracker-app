@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+header {
+  display: flex;
+  justify-content: center;
+  background-color: steelblue;
+  color: white;
+}
+section {
+  display: flex;
+  justify-content: center;
+}
+.confirmed-case, .death-case, .recovery-case {
+  height: 150px;
+  border: 1px solid black;
+  box-shadow: 0 6px 5px 3px gray;
+  width: 300px;
+  margin: 20px;
+}
+.confirmed-case {
+  background-color: yellow;
+}
+.death-case {
+  background-color: red;
+  color: white;
+}
+.recovery-case {
+  background-color: green;
+  color: white;
+}
+ 
